@@ -5,7 +5,6 @@ details of the model, see Black and Scholes (1973) as well as Merton (1973). See
 Appendix B for an alternative implementation based on a Python class.
 """
 
-#
 # Valuation of European call options
 # in Black-Scholes-Merton model
 # incl. vega function and implied volatility estimation
@@ -16,7 +15,8 @@ Appendix B for an alternative implementation based on a Python class.
 
 
 def bsm_call_value(S0, K, T, r, sigma):
-    """Valuation of European call option in BSM
+    """
+    Valuation of European call option in BSM
     Analytical formula.
 
     Parameters
@@ -52,7 +52,8 @@ def bsm_call_value(S0, K, T, r, sigma):
 
 
 def bsm_vega(S0, K, T, r, sigma):
-    """Vega of European option in BSM model.
+    """
+    Vega of European option in BSM model.
 
     Parameters
     ==========
@@ -82,11 +83,9 @@ def bsm_vega(S0, K, T, r, sigma):
     return vega
 
 
-# implied volatility function
-
-
 def bsm_call_imp_vol(S0, K, T, r, C0, sigma_est, it=100):
-    """Implied volatility of European call option in BSM model.
+    """
+    Implied volatility of European call option in BSM model.
 
     Parameters
     ==========
