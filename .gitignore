@@ -1,0 +1,12 @@
+*.ipynb_checkpoints
+*__pycache__
+notes.txt
+book/functions
+book/chapter-01.ipynb
+book/chapter-02.ipynb
+book/chapter-07.ipynb
+book/chapter-08.ipynb
+book/chapter-11.ipynb
+book/chapter-12.ipynb
+book/chapter-13.ipynb
+book/chapter-14.ipynb
