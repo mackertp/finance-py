@@ -16,7 +16,7 @@ uname@os:~$ jupyter-lab
 
 I've compiled research from several other sources that you can see in notebooks available throughout this repository. Explore some of the research that I've worked through and feel free to borrow concepts. This repository was built out while studying Yves Hilpisch's *Python for Finance*. If you click into the 'book' folder, see links to the book and his platform.
 
-```
+
 To export dependencies from the virtual enviornment into a reusable file, simply use the following conda command:
 
 ```console
