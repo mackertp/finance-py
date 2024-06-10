@@ -20,5 +20,5 @@ I've compiled research from several other sources that you can see in notebooks 
 To export dependencies from the virtual enviornment into a reusable file, simply use the following conda command:
 
 ```console
-(pyfi) uname@os: conda env export > pyfi.yml
+(pyfi) uname@os:~$ conda env export > pyfi.yml
 ```
